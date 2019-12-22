@@ -3,6 +3,6 @@ export async function loadData(loadUrl) {
     if (res.ok) {
         return await res.json();
     } else {
-        throw res;
+        throw res.statusText;
     }
 }

@@ -47,9 +47,9 @@
 			nextPage += 1;
 			isLoading = false;
 		})
-		.catch(result => {
-			errorMessage = result.message;
-			isLoading = false;
+		.catch(error => {
+            errorMessage = error;
+            isLoading = false;
 		});
 	}
 </script>
