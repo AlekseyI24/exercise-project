@@ -1,8 +1,6 @@
-<li>
-    <span class="id">{userId}</span>
-    <span class="firstName">{firstName}</span>
-    <span class="lastName">{lastName}</span>
-</li>
+<span class="id">{userId}</span>
+<span class="firstName">{firstName}</span>
+<span class="lastName">{lastName}</span>
 
 <script>
     export let userId;
